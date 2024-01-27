@@ -6,14 +6,14 @@ import PlatformAnalysis from './PlatformAnalysis';
 
 function Dashboard() {
     return (
-        <div className='flex flex-row'>
-            <div className='flex flex-col flex-1'> {/* Add flex-1 class to ensure the container expands to fill available space */}
+        <div className='flex flex-row p-4'>
+            <div className='flex flex-col flex-1 p-4'> {/* Add flex-1 class to ensure the container expands to fill available space */}
                 <TransactionChart />
                 <Table/>
             </div>
-            <div className='flex flex-col flex-1'> {/* Add flex-1 class to ensure the container expands to fill available space */}
+            <div className='flex flex-col flex-1 px-12 justify-between'> {/* Add flex-1 class to ensure the container expands to fill available space */}
                 <DashBoardStatsGrid />
-                <PlatformAnalysis/>
+                <PlatformAnalysis className="w-1/2"/>
                 
             </div>
         </div>
