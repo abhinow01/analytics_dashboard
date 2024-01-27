@@ -73,18 +73,11 @@ function Table() {
         <div className="container mx-auto h-full pb-8">
       <div className="flex flex-wrap justify-between mb-4 bg-white">
         <div className="flex px-4 py-2">
-          <input
-            type="text"
-            placeholder="Search"
-            className="px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500 mr-2"
-          />
+          Last Orders
         </div>
         <div className="flex py-2 px-4">
-          <button className="bg-white px-4  flex items-center justify-center rounded-md border border-gray-200" >
-            Sort <TbArrowsSort className="ml-1" />
-          </button>
-          <button className="bg-white px-2 py-2 flex items-center justify-center ml-2 rounded-md border border-gray-200">
-            <FiDownload className="ml-1" />
+          <button className="bg-white px-4  flex items-center justify-center rounded-md text-green-400" >
+            See all 
           </button>
         </div>
       </div>

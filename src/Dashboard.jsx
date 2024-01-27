@@ -2,6 +2,7 @@ import React from 'react';
 import TransactionChart from './TransactionChart';
 import Table from './Table';
 import DashBoardStatsGrid from './DashBoardStatsGrid';
+import PlatformAnalysis from './PlatformAnalysis';
 
 function Dashboard() {
     return (
@@ -12,6 +13,7 @@ function Dashboard() {
             </div>
             <div className='flex flex-col flex-1'> {/* Add flex-1 class to ensure the container expands to fill available space */}
                 <DashBoardStatsGrid />
+                <PlatformAnalysis/>
                 
             </div>
         </div>
